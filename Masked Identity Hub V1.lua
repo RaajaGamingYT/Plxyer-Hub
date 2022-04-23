@@ -1,8 +1,7 @@
--- Gui to Lua
--- Version: 3.2
+--[[ Masked Identity Hub V1 by Plxyer05 ]]--
+--[[ This is a bad Hub ngl but soon it will be developed if i learn luau lmao ]]--
 
--- Instances:
-
+wait(0.1)
 local MaskedIdentityGUI = Instance.new("ScreenGui")
 local MainF = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -168,7 +167,7 @@ Information.BorderSizePixel = 2
 Information.Position = UDim2.new(0.661016941, 0, 0.273972601, 0)
 Information.Size = UDim2.new(0, 109, 0, 137)
 Information.Font = Enum.Font.JosefinSans
-Information.Text = "Thanks For Using our Hub! This is V2 and Also there are only less scripts **Sorry lol they are skidded**. Well Don't let others use this hub or else the script owners will give me a big Copyright Issue!"
+Information.Text = "Thanks For Using our Hub! This is V1 and Also there are only less scripts **Sorry lol they are skidded**. Well Don't let others use this hub or else the script owners will give me a big Copyright Issue!"
 Information.TextColor3 = Color3.fromRGB(255, 255, 255)
 Information.TextScaled = true
 Information.TextSize = 14.000
@@ -196,7 +195,7 @@ Title.BackgroundTransparency = 1.000
 Title.Position = UDim2.new(0.464285702, 0, 0, 0)
 Title.Size = UDim2.new(0, 200, 0, 53)
 Title.Font = Enum.Font.SourceSansSemibold
-Title.Text = "Masked Identity Hub V2"
+Title.Text = "Masked Identity Hub V1"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
@@ -617,3 +616,10 @@ local function ABWM_fake_script() -- MainF.Dragify
 	dragify(script.Parent)
 end
 coroutine.wrap(ABWM_fake_script)()
+
+print("Loaded Hub!")
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Masked Identity Hub V1";
+	Text = "Hub Loaded!! Thanks for using our Hub! More Features Coming Soon!";
+	})
